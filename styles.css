@@ -8,7 +8,24 @@ h1 {
     text-align: center;
 }
 
-#quiche {
-    width: 400px;
+.layout{
+    width: 60%;
+    display: flex;
+    margin: auto;
+}
+
+.recipe_cards {
+    flex: 1;
+    padding: 5px;
+    border: 2px solid black;
+    margin-right: 8px;
+}
+
+.last {
+    margin-right: 0px;
+}
+
+.hpictures {
+    max-width: 100%;
     height: auto;
 }
